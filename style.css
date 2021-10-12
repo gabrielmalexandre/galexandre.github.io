@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(39, 38, 38);
+    background: rgb(249,231,68);
+    background: radial-gradient(circle, rgba(249,231,68,1) 0%, rgba(237,250,68,1) 0%);
+}
+.avatar{
+    width: 80px;
+    border-radius: 50%;
+    border:2px solid white;
+    box-shadow: 0 0 15px white;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    margin-top:5px;
+    font-size: 27px;
+}
+h2{
+    margin-bottom:5px;
+    font-size: 18px;
+}
+.profile{
+    text-align: center;
+    margin-top: 15px;    
+}
+.social{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.social img{
+    width:33px;
+}
+.links-list{
+    list-style: none;
+}
+.links-list li{
+    margin:10px 20px;
+}
+.links-list li a{
+    background-color: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius:10px;
+    box-shadow: 0 0 15px white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    color: rgb(58, 2, 90);
+}
+.links-list li a span{
+    display: block;
+    color: rgb(12, 12, 12);
+    font-size: 18px;
+}
